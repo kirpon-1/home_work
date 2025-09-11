@@ -1,6 +1,6 @@
 def get_mask_card_number(card_number: str) -> str:
     """Функция проверяет размер номера банковской карты на корректность
-    и затем маскирует ее в соответсвующем заданию формате XXXX XX** **** XXXX"""
+    и затем маскирует ее в формате XXXX XX** **** XXXX"""
     if card_number is None:
         raise ValueError("введите номер карты")
     if len(card_number) != 16 or not card_number.isdigit():
