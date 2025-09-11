@@ -11,7 +11,7 @@ def get_mask_card_number(card_number: str) -> str:
 
 def get_mask_account(card_account: str) -> str:
     """Функция проверяет размер счкта на корректность
-        и затем маскирует ее в формате XXXX XX** **** XXXX"""
+    и затем маскирует ее в формате XXXX XX** **** XXXX"""
     if card_account is None:
         raise ValueError("введите номер карты")
     if len(card_account) != 20 or not card_account.isdigit():

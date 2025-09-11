@@ -8,4 +8,3 @@ if __name__ == "__main__":
     print(get_mask_account("73654108430135874305"))
     # print(get_mask_account("736541084301358743056"))
     # print(get_mask_account(""))
-
