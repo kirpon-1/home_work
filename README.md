@@ -45,6 +45,7 @@ line_length = 119
 
 
 Использование программ:
+
 1.для маскировки карт
 импортировать маскировки и принте оставлять номера карт
 from src.masks import get_mask_account, get_mask_card_number
